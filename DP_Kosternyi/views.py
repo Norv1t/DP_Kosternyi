@@ -7,3 +7,6 @@ def about(request):
 
 def cv(request):
     return render(request, 'cv.html')
+
+def date(request):
+    return HttpResponse('12/05/2024')
